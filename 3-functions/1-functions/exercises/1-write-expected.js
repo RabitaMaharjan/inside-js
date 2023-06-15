@@ -11,23 +11,27 @@ const scramble = (param1, param2, param3) => {
   return result;
 };
 
+// In this function scramble 'a' is param1 'b' is param2 and 'c' s param3
 const _1_actual = scramble('a', 'c', 'b');
-const _1_expect = _;
+const _1_expect = 'bca';
 console.assert(_1_actual === _1_expect, 'Test 1');
 
-const _2_expect = _;
+// In this function scramble 'a' is param1 'b' is param2 and 'c' s param3
+const _2_expect = 'cab';
 const _2_actual = scramble('a', 'b', 'c');
 console.assert(_2_actual === _2_expect, 'Test 2');
 
-const _3_expect = _;
+// In this function scramble 'c' is param1 'b' is param2 and 'a' s param3
+const _3_expect = 'acb';
 const _3_actual = scramble('c', 'b', 'a');
 console.assert(_3_actual === _3_expect, 'Test 3');
 
-const _4_expect = _;
+// In this function scramble 'b' is param1 'a' is param2 and 'c' s param3
+const _4_expect = 'cba';
 const _4_actual = scramble('b', 'a', 'c');
 console.assert(_4_actual === _4_expect, 'Test 4');
 
-const _5_expect = _;
+const _5_expect = 'abc';
 const _5_actual = scramble('b', 'c', 'a');
 console.assert(_5_actual === _5_expect, 'Test 5');
 

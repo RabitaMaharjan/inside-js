@@ -9,8 +9,8 @@ console.log('-- begin --');
 //  what do all the solutions have in common?
 // or maybe the asserted path is unreachable!
 
-const value1 = _;
-const value2 = _;
+const value1 = true;
+const value2 = false;
 let path = '';
 
 if (value1 && !value2) {
@@ -19,6 +19,6 @@ if (value1 && !value2) {
   path = 'else if';
 }
 
-console.assert(path === 'else if');
+console.assert(path === 'if');
 
 console.log('-- end --');
